@@ -1,0 +1,59 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210719/4/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-07-19 10:36:54.055 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_202107169/1/audita.txt
+(   2,<2021-07-19 10:39:37.399 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID '3be272b2-e87d-11eb-944d-0000ad32ba11'
+       started at 2021-07-19 10:36:54.149 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2021-07-19 10:39:37.394 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 98360 * 1
+       31 10 26 A8 FB CE 63 1C 65 48 F1 D8 3A DA 49 26>)
+(   3,<2021-07-19 10:40:17.814 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <raw data deleted by zg>)
+(   4,<2021-07-19 10:40:17.819 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210719/1/audita.txt
+(   5,<2021-07-19 12:01:31.398 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <raw data deleted by zg>)
+(   6,<2021-07-19 12:01:31.403 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+(   7,<2021-07-19 12:31:40.508 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID '0e370f9c-e889-11eb-a14a-0000ad32ba11'
+       started at 2021-07-19 12:01:31.464 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-19 12:31:40.503 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 98360 * 12
+       22 80 74 15 76 FF 71 0F 41 AD 22 98 03 DE BE D6>)
+(   8,<2021-07-19 15:10:58.657 +0200>,<nmrsu>,<4CE0192DK9>,<dirdata>,<TopSpin 4.1.0>,
+      <CAT service failure
+       wra from 1 "TE_20210719" "C:/Bruker/TopSpin4.1.0/data"
+       double data hash MD5: 98360 * 12
+       22 80 74 15 76 FF 71 0F 41 AD 22 98 03 DE BE D6>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210719/4/audita.txt
+(   9,<2021-07-19 13:12:08.257 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <raw data deleted by zg>)
+(  10,<2021-07-19 13:12:08.262 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+(  11,<2021-07-19 14:08:32.383 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID 'eb92083e-e892-11eb-b8d1-0000ad32ba11'
+       started at 2021-07-19 13:12:08.342 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-19 14:08:32.378 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 98360 * 14
+       6E C5 27 5A 72 04 A6 56 2A 0E 5E 4D 9C D4 54 B6>)
+##END=
+
+$$ hash MD5
+$$ 46 ED 1A 8E 7A F9 8D 2D C4 ED D1 12 40 C6 A5 90

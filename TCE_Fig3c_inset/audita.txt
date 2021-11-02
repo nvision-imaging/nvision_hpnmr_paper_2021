@@ -1,0 +1,41 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210720/2/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-07-20 09:22:20.458 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210720/1/audita.txt
+(   2,<2021-07-20 09:50:52.518 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID 'fbd0a184-e93b-11eb-aebb-0000ad32ba11'
+       started at 2021-07-20 09:22:20.535 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-20 09:50:52.512 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 98360 * 12
+       77 CC A7 DE BF 3B 59 79 8E 81 04 9C 0C C6 66 B3>)
+(   3,<2021-07-20 14:37:06.317 +0200>,<nmrsu>,<4CE0192DK9>,<dirdata>,<TopSpin 4.1.0>,
+      <CAT service failure
+       wra from 1 "TE_20210720" "C:/Bruker/TopSpin4.1.0/data"
+       double data hash MD5: 98360 * 12
+       77 CC A7 DE BF 3B 59 79 8E 81 04 9C 0C C6 66 B3>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210720/2/audita.txt
+(   4,<2021-07-20 13:39:49.167 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <raw data deleted by zg>)
+(   5,<2021-07-20 13:39:49.172 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+(   6,<2021-07-20 16:16:25.494 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID 'f3f92174-e95f-11eb-b3b4-0000ad32ba11'
+       started at 2021-07-20 13:39:49.259 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-20 16:16:25.489 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 98360 * 16
+       B0 23 DA 2B DE 8C 10 F4 15 8C 1D 1E 04 EE CB 03>)
+##END=
+
+$$ hash MD5
+$$ 8B 10 A0 12 36 EF 19 D4 3C 28 30 FD D4 4E B6 58

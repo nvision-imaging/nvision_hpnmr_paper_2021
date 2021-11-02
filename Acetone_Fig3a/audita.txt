@@ -1,0 +1,41 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210719/3/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-07-19 11:13:45.414 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210719/2/audita.txt
+(   2,<2021-07-19 11:44:07.252 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID '61f2486a-e882-11eb-846f-0000ad32ba11'
+       started at 2021-07-19 11:13:45.453 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-19 11:44:07.247 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 64K * 2
+       84 DA 3B 74 45 58 9A 79 AC AD AF 17 07 59 C3 E4>)
+(   3,<2021-07-19 14:38:49.317 +0200>,<nmrsu>,<4CE0192DK9>,<dirdata>,<TopSpin 4.1.0>,
+      <CAT service failure
+       wra from 2 "TE_20210719" "C:/Bruker/TopSpin4.1.0/data"
+       double data hash MD5: 64K * 2
+       84 DA 3B 74 45 58 9A 79 AC AD AF 17 07 59 C3 E4>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210719/3/audita.txt
+(   4,<2021-07-19 12:41:25.824 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <raw data deleted by zg>)
+(   5,<2021-07-19 12:41:25.829 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+(   6,<2021-07-19 13:11:46.703 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID 'a161b600-e88e-11eb-b0eb-0000ad32ba11'
+       started at 2021-07-19 12:41:25.860 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-19 13:11:46.697 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 64K * 2
+       6A 5E 00 A0 97 30 79 A6 70 C8 24 B5 E2 42 6B 02>)
+##END=
+
+$$ hash MD5
+$$ 21 83 D0 FB BD 5D FD C8 66 EF 14 0F E5 B4 92 B6

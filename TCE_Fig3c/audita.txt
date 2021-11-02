@@ -1,0 +1,32 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/TE_20210720/3/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-07-20 12:39:06.424 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210720/3/audita.txt
+(   2,<2021-07-20 12:39:50.387 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <
+       started at 2021-07-20 12:39:06.457 +0000, POWCHK disabled, PULCHK disabled,
+       terminated by command 'stop' at 2021-07-20 12:39:50.382 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59>)
+(   3,<2021-07-20 12:40:06.246 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <raw data deleted by zg>)
+(   4,<2021-07-20 12:40:06.251 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+(   5,<2021-07-20 13:10:27.166 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID '9c5fd294-e957-11eb-8573-0000ad32ba11'
+       started at 2021-07-20 12:40:06.283 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-20 13:10:27.160 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 64K * 2
+       DA 4A 66 B6 D0 2F 5D AF 83 8E EC A9 B4 0F 4D C5>)
+##END=
+
+$$ hash MD5
+$$ 64 B1 42 48 88 D4 8B 01 AC 51 F9 E5 62 C2 CA 84
