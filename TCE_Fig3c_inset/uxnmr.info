@@ -1,0 +1,89 @@
+CONFIGURATION INFORMATION
+=========================
+
+Path         : /opt/topspin/conf/instr/spect/uxnmr.info
+Date         : Thu Jun 17 09:05:04 2021
+Release      : TopSpin 4.1.0
+Installed in : /opt/topspin
+Host         : fourier80.bruker.lan
+OS           : Linux 4.19.0-20191112-1 #1 SMP PREEMPT Thu Oct 1 23:51:14 UTC 2020
+CPU          : ARMv7 Processor rev 1 (v7l) (2 cores)
+User         : root (root)
+System       : CMR 80 NMR spectrometer
+1H-frequency : 80.14 MHz
+Description  : Fourier
+Configured in: fourier80.bruker.lan:/opt/topspin/conf/instr/spect
+
+AQ-Rack:
+- {EPU}: Fourier80 EPU H162300/00080 ECL 2.0
+- GTU: Fourier80 GTU H162300/00080 ECL 2.0
+  Connection: at IP 127.0.0.1 via PCIe #0
+  Firmware Version: ?
+  Sequencer: GCube, TCube
+  - GCube1
+  - TCube1
+- TRX: Fourier80 TRX H162300/00080 ECL 2.0
+  Connection: at IP 127.0.0.1 via PCIe #1
+  Firmware Version: ?
+  Devices: DRX at /dev/bbu/drx1.1
+  Sequencer: FCube
+  - FCube1
+- TRX: Fourier80 TRX H162300/00080 ECL 2.0
+  Connection: at IP 127.0.0.1 via PCIe #2
+  Firmware Version: ?
+  Devices: DRX at /dev/bbu/drx1.1
+  Sequencer: FCube
+  - FCube2
+- BLA: Fourier80 Amp+Preamp Unit H163261/000305 ECL 12
+- BLA: Fourier80 Amp+Preamp Unit H163261/000308 ECL 12
+- Preamp: Fourier80 Amp+Preamp Unit H163261/000305 ECL 12
+  HPPR2: - HPPR/2 preamplifier connected via AqRack
+      Type      : HPPR/2
+      Controller: no Cover
+                  no LED display for tuning and matching
+      Module  1 : 1H/13C
+                  PN=H163261, SN=000305 from 20201215
+      Module  2 : 1H/13C
+                  PN=H163261, SN=000308 from 20201215
+  
+- Preamp: Fourier80 Amp+Preamp Unit H163261/000308 ECL 12
+- BOARD
+- BOARD
+- BOARD: Fourier80 Lock Board H163263F1/000146 ECL 03
+- BOARD: Fourier80 RFBoard H168435F1/000078 ECL 1.0
+
+Amplifiers (AQS configuration):
+  RO  Amplifier  Module  Nucleus  Power/W  Switchbox Name PN/SN/FW
+   1      1         1        B       20    N         Fourier80 Amp+Preamp Unit H163261/305/-
+   2      2         1        B       20    N         Fourier80 Amp+Preamp Unit H163261/308/-
+
+
+BSMS: BSMS/2 connected to ethernet
+- TCP/IP address = no
+- ELCB firmware version = 20200917
+- BSMS has CMR features.
+- Shim System = BFSS1-B
+- SCB channels = 34
+- Shim matrix file: bfss1b.dat
+- Active shims: Y Z X XY YZ Z2 XZ (X2-Y2) X3Z XYZ YZ2 Z3 XZ2 YZ4 X3 Y3Z XYZ2 YZ3 Z4 XZ3 (X2-Y2)Z2 Y3 XYZ3 (X2-Y2)Z Z5 XZ4 (X2-Y2)Z3 XYZ4 YZ5 Z6 XZ5 (X2-Y2)Z4 XYZ5 (X2-Y2)Z5
+- Magnet polarity: SN (Bruker), uses standard H0 polarity
+- 2HTX Amplifier: not available
+- Lock: installed, supports 19F
+
+
+RF cable connections (assumed)
+--------------------------------------------------------------------
+TRX1 NORM output -> input 1 of transmitter 1 (Fourier80 Amp+Preamp Unit H163261/305)
+TRX1 AUX  output -> open
+TRX2 NORM output -> input 1 of transmitter 2 (Fourier80 Amp+Preamp Unit H163261/308)
+TRX2 AUX  output -> open
+
+Blanking cable connections (assumed)
+--------------------------------------------------------------------
+transmitter 1 = Fourier80 Amp+Preamp Unit H163261/305:
+- amplifier B-20W uses blanking 1
+
+transmitter 2 = Fourier80 Amp+Preamp Unit H163261/308:
+- amplifier B-20W uses blanking 2
+
+

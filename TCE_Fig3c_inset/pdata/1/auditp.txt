@@ -1,0 +1,48 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210720/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-07-20 09:22:20.458 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <acquisition in progress>)
+$$ C:/Bruker/TopSpin4.1.0/data/TE_20210720/1/audita.txt
+(   2,<2021-07-20 09:50:52.518 +0000>,<4CE0192DK9\nmrsu>,<4CE0192DK9>,<go4>,<TopSpin 4.1.0>,
+      <created by zg on 'Fourier' (4CE0192DK9) by user '4CE0192DK9\nmrsu'
+       on data set with UUID 'fbd0a184-e93b-11eb-aebb-0000ad32ba11'
+       started at 2021-07-20 09:22:20.535 +0000, POWCHK disabled, PULCHK disabled,
+       completed at 2021-07-20 09:50:52.512 +0000
+       configuration hash MD5:
+       10 73 06 A2 63 72 C2 12 0B AE 1E 73 F3 11 10 59
+       double data hash MD5: 98360 * 12
+       77 CC A7 DE BF 3B 59 79 8E 81 04 9C 0C C6 66 B3>)
+(   3,<2021-07-20 14:37:06.317 +0200>,<nmrsu>,<4CE0192DK9>,<dirdata>,<TopSpin 4.1.0>,
+      <CAT service failure
+       wra from 1 "TE_20210720" "C:/Bruker/TopSpin4.1.0/data"
+       double data hash MD5: 98360 * 12
+       77 CC A7 DE BF 3B 59 79 8E 81 04 9C 0C C6 66 B3>)
+(   4,<2021-07-20 14:37:11.332 +0200>,<nmrsu>,<4CE0192DK9>,<proc2d>,<TopSpin 4.1.0>,
+      <CAT service failure
+       Start of raw data processing
+       xfb F2: SI = 1K WDW = 4 SSB = 2 FT_mod = 6 PKNL = 1 PHC0 = 259.9197 PHC1 = 58.74649 F1: SI = 1K ME_mod = 2 NCOEF = 12 WDW = 4 SSB = 2 FT_mod = 4 FCOR = 1 PHC0 = 155.654 PHC1 = -180
+       data hash MD5: 1K * 1K
+       16 AE 8B 2A 4B D9 6E 5C 0A 51 D1 19 C3 9F 70 D1>)
+(   5,<2021-07-20 14:37:13.739 +0200>,<nmrsu>,<4CE0192DK9>,<apkm>,<TopSpin 4.1.0>,
+      <CAT service failure
+       apkm 
+       data hash MD5: 1K * 1K
+       29 D1 61 D8 50 A2 02 F6 62 37 9E 14 61 26 AE 2B>)
+(   6,<2021-07-20 14:37:13.916 +0200>,<nmrsu>,<4CE0192DK9>,<proc2d>,<TopSpin 4.1.0>,
+      <CAT service failure
+       abs1 F1: ABSG = 5 ABSF1 = 9.813688 ABSF2 = -0.4136763
+       data hash MD5: 1K * 1K
+       2B 85 2C 45 18 77 77 41 62 25 55 03 54 34 52 D7>)
+(   7,<2021-07-20 14:37:14.072 +0200>,<nmrsu>,<4CE0192DK9>,<proc2d>,<TopSpin 4.1.0>,
+      <CAT service failure
+       abs2 F2: ABSG = 5 ABSF1 = 55.83683 ABSF2 = -46.43682
+       data hash MD5: 1K * 1K
+       E7 D3 30 6B 00 97 0F 50 EC 05 E5 12 1E 7C 1A 97>)
+##END=
+
+$$ hash MD5
+$$ C7 55 5B 65 C8 75 74 C5 B3 80 54 AD 93 E8 9A 4A
